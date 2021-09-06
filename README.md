@@ -9,4 +9,4 @@ Feito com:
 Layout simples e limpo.
 Tratamento de erros.
 
-Para visualizar e testa, clique aqui.
+Para visualizar e testa, <a href="https://felipejuzo02.github.io/simple-calculator/">Clique aqui</a>.
