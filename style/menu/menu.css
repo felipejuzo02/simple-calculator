@@ -1,0 +1,33 @@
+.menu {
+  font-family: 'Cairo', sans-serif;
+  background-color: black;
+  color: #fff;
+}
+
+.menu__container {
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 16px 0;
+  width: 70%;
+}
+
+.menu__logo {
+  color: #00B292 ;
+}
+
+.menu__logo-text {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .menu__container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu__logo {
+    margin-bottom: 12px;
+  }
+}

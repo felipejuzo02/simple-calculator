@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style/menu/menu.css">
+  <link rel="stylesheet" href="./style/content/content.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Calculadora JS</title>
+</head>
+<body>
+  <header class="menu">
+    <div class="menu__container">
+      <p class="menu__logo"><<span class="menu__logo-text">luis-juzo</span> /></p>
+      <p>Calculadora JavaScript</p>
+    </div>
+  </header>
+  <main>
+    <section class="main">
+      <div class="content">
+        <div class="content__result" data-result></div>
+        <table data-calculator>
+          <tr>
+            <td><button class="content__buttons">C</button></td>
+            <td><button class="content__buttons"><span class="material-icons">backspace</span></button></td>
+            <td><button class="content__buttons">/</button></td>
+            <td><button class="content__buttons">X</button></td>
+          </tr>
+          <tr>
+            <td><button class="content__buttons">7</button></td>
+            <td><button class="content__buttons">8</button></td>
+            <td><button class="content__buttons">9</button></td>
+            <td><button class="content__buttons">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="content__buttons">4</button></td>
+            <td><button class="content__buttons">5</button></td>
+            <td><button class="content__buttons">6</button></td>
+            <td><button class="content__buttons">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="content__buttons">1</button></td>
+            <td><button class="content__buttons">2</button></td>
+            <td><button class="content__buttons">3</button></td>
+            <td rowspan="2" style="height: 124px;"><button class="content__buttons content__buttons--column">=</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="content__buttons content__buttons--row">0</button></td>
+            <td><button class="content__buttons">.</button></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+   
+  </main>
+</body>
+</html>
